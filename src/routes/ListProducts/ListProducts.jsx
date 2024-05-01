@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import data from "../../../data.json";
 import { ListProductsStyled } from "./ListProductsStyled";
+import Card from "../../components/Card/Card";
 
 export const ListProducts = () => {
   const [products, setProducts] = useState([]);
@@ -12,7 +13,7 @@ export const ListProducts = () => {
         return resp.json();
       })
       .then((resp) => {
-        setProducts(resp);
+        setProducts(resp); 
       })
       .catch((error) => {
         console.log(error);
@@ -24,11 +25,7 @@ export const ListProducts = () => {
       <h1>PRODUCTS</h1>
 
       {data.products.map((product, index) => (
-        <div key={index}>
-          <h2>{product.name}</h2>
-          <p>{product.description}</p>
-          <p>{product.price}</p>
-        </div>
+          <Card key={index} product={product}/>
       ))}
     </ListProductsStyled>
   );

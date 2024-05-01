@@ -6,7 +6,7 @@
       "category": "Cordas",
       "price": 750.0,
       "description": "Uma guitarra clássica com um som excepcional, ideal para músicos de todos os níveis.",
-      "image": "fender_stratocaster.jpg"
+      "image": "./src/assets/images/fender_stratocaster.png"
     },
     {
       "id": 2,
