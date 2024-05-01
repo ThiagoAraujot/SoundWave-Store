@@ -4,10 +4,10 @@ import App from "./App.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Error from "./routes/Error/Error.jsx";
 import Home from "./routes/Home/Home.jsx";
-import Products from "./routes/Products/Products.jsx";
 import Login from "./routes/Login/Login.jsx";
 import Contact from "./routes/Contact/Contact.jsx";
 import GlobalStyled from "./GlobalStyled.jsx";
+import ListProducts from "./routes/ListProducts/ListProducts.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +17,7 @@ const router = createBrowserRouter([
 
     children: [
       { path: "/", element: <Home /> },
-      { path: "/products", element: <Products /> },
-      { path: "/products", element: <Products /> },
+      { path: "/products", element: <ListProducts /> },
       { path: "/login", element: <Login /> },
       { path: "/contact", element: <Contact /> },
     ],

@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Guitarra Fender Stratocaster",
+      "category": "Cordas",
+      "price": 750.0,
+      "description": "Uma guitarra clássica com um som excepcional, ideal para músicos de todos os níveis.",
+      "image": "fender_stratocaster.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bateria Pearl Export EXX",
+      "category": "Percussão",
+      "price": 1200.0,
+      "description": "Bateria completa com ótima qualidade de som e durabilidade.",
+      "image": "pearl_export_exx.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Teclado Yamaha PSR-E373",
+      "category": "Teclas",
+      "price": 300.0,
+      "description": "Teclado ideal para iniciantes e músicos intermediários, com uma variedade de sons e ritmos.",
+      "image": "yamaha_psr_e373.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Violão Taylor 314ce",
+      "category": "Cordas",
+      "price": 1850.0,
+      "description": "Violão acústico com excelente resposta tonal, adequado para performance ao vivo e gravação.",
+      "image": "taylor_314ce.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Saxofone Alto Yamaha YAS-280",
+      "category": "Sopro",
+      "price": 1050.0,
+      "description": "Saxofone alto de alta qualidade, perfeito para estudantes e músicos avançados.",
+      "image": "yamaha_yas_280.jpg"
+    }
+  ]
+}
