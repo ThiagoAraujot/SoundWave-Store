@@ -1,5 +1,3 @@
-# React + Vite
-
 <div align="center">
   <h1>SoundWave Store</h1>
 </div>
