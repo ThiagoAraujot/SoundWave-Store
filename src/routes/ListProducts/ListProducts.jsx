@@ -1,32 +1,103 @@
 import { useState } from "react";
-import { useEffect } from "react";
 import data from "../../../data.json";
-import { ListProductsStyled } from "./ListProductsStyled";
+import { Button, Input, ListProductsStyled } from "./ListProductsStyled";
 import Card from "../../components/Card/Card";
+import { Form } from "react-router-dom";
 
 export const ListProducts = () => {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState(data.products);
+  const [form, setForm] = useState({
+    id: null,
+    name: "",
+    price: "",
+    description: "",
+    imageUrl: "",
+  });
+  const [isEditing, setIsEditing] = useState(false);
 
-  useEffect(() => {
-    fetch("http://localhost:5173/products/")
-      .then((resp) => {
-        return resp.json();
-      })
-      .then((resp) => {
-        setProducts(resp); 
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setForm((prevForm) => ({
+      ...prevForm,
+      [name]: value,
+    }));
+  };
+
+  const startEdit = (product) => {
+    setForm(product);
+    setIsEditing(true);
+  };
+
+  const submitProduct = (event) => {
+    event.preventDefault();
+    if (isEditing) {
+      const updatedProducts = products.map((product) =>
+        product.id === form.id
+          ? { ...form, price: parseFloat(form.price) }
+          : product
+      );
+      setProducts(updatedProducts);
+      setIsEditing(false);
+    } else {
+      const newProduct = {
+        ...form,
+        id: products.length + 1,
+        price: parseFloat(form.price),
+      };
+      setProducts([...products, newProduct]);
+    }
+    setForm({ id: null, name: "", price: "", description: "", imageUrl: "" }); // Reset form
+  };
 
   return (
     <ListProductsStyled>
-      <h1>PRODUCTS</h1>
+      <h1>Catálogo de Produtos</h1>
 
-      {data.products.map((product, index) => (
-          <Card key={index} product={product}/>
-      ))}
+      <Form onSubmit={submitProduct}>
+        <Input
+          type="text"
+          name="name"
+          placeholder="Nome do Produto"
+          value={form.name}
+          onChange={handleInputChange}
+          required
+        />
+        <Input
+          type="number"
+          name="price"
+          placeholder="Preço"
+          value={form.price}
+          onChange={handleInputChange}
+          required
+        />
+        <Input
+          name="description"
+          placeholder="Descrição"
+          value={form.description}
+          onChange={handleInputChange}
+          required
+        />
+        <Input
+          type="text"
+          name="imageUrl"
+          placeholder="URL da Imagem"
+          value={form.imageUrl}
+          onChange={handleInputChange}
+        />
+        <Button type="submit">
+          {isEditing ? "Atualizar Produto" : "Adicionar Produto"}
+        </Button>
+      </Form>
+
+      <div>
+        {products.map((product, index) => (
+          <Card
+            key={index}
+            product={product}
+            onEdit={() => startEdit(product)}
+          />
+        ))}
+      </div>
     </ListProductsStyled>
   );
 };

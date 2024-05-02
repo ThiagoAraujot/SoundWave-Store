@@ -24,7 +24,7 @@ const Navbar = () => {
         </Link>
       </ul>
 
-      <button>Login</button>
+      <Link to='/login'><button>Login</button></Link>
     </NavContainer>
   );
 };

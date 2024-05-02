@@ -1,8 +1,10 @@
+import { HomeContainer } from "./HomeStyled"
+
 const Home = () => {
   return (
-    <div>
-      <h1>HOME</h1>
-    </div>
+    <HomeContainer>
+      <h1>Fullfilling dreams <br/> with strings <br/> attached</h1>
+    </HomeContainer>
   )
 }
 

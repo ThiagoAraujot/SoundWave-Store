@@ -11,6 +11,7 @@ export const NavContainer = styled.nav`
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    width: 100px;
 
     img {
       width: 64px;
