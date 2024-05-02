@@ -1,8 +1,26 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <h1>SoundWave Store</h1>
+</div>
+<hr/>
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="#pushpin-Descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#smile-Integrantes">Integrantes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+<hr/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :pushpin: Descrição
+
+Projeto realizado na [FIAP](https://www.fiap.com.br/) com o objetivo de praticar conceitos vistos em sala de aula sobre o React.
+
+## :smile: Integrantes
+
+- [Felipe Schneider - RM553477](https://github.com/felpschneider)
+- [Hugo Santos - RM553266](https://github.com/ThiagoAraujot/CP1-WebDevelopment/commits?author=guguim)
+- [Maria Julia Araujo Rodrigues - RM553384](https://github.com/majuaraujo)
+- [Thiago Araujo Vieira - RM553477](https://github.com/ThiagoAraujot)
+- [Vinicius Centurion - RM554063](https://github.com/vinicenturion)
+
+###### Clique no nome para visitar o GitHub

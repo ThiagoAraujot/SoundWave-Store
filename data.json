@@ -14,7 +14,7 @@
       "category": "Percussão",
       "price": 1200.0,
       "description": "Bateria completa com ótima qualidade de som e durabilidade.",
-      "image": "./src/assets/images/fender_stratocaster.png"
+      "image": "./src/assets/images/bateria_pearl.png"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "category": "Teclas",
       "price": 300.0,
       "description": "Teclado ideal para iniciantes e músicos intermediários, com uma variedade de sons e ritmos.",
-      "image": "./src/assets/images/fender_stratocaster.png"
+      "image": "./src/assets/images/Teclado_Yamaha.webp"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "category": "Cordas",
       "price": 1850.0,
       "description": "Violão acústico com excelente resposta tonal, adequado para performance ao vivo e gravação.",
-      "image": "./src/assets/images/fender_stratocaster.png"
+      "image": "./src/assets/images/violao_taylor.png"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "category": "Sopro",
       "price": 1050.0,
       "description": "Saxofone alto de alta qualidade, perfeito para estudantes e músicos avançados.",
-      "image": "./src/assets/images/fender_stratocaster.png"
+      "image": "./src/assets/images/sax_alto.webp"
     }
   ]
 }
