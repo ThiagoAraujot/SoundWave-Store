@@ -9,7 +9,7 @@ const Card = ({ product, onEdit }) => {
       </div>
       <div>
         <h2>{product.name}</h2>
-        <p>{product.price}</p>
+        <p>R$ {product.price.toFixed(2)}</p>
         <p>{product.description}</p>
         <button onClick={onEdit}>Editar Produto</button>
       </div>

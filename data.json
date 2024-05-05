@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Guitarra Fender Stratocaster",
       "category": "Cordas",
-      "price": 750.0,
+      "price": 750.00,
       "description": "Uma guitarra clássica com um som excepcional, ideal para músicos de todos os níveis.",
       "image": "./src/assets/images/fender_stratocaster.png"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Bateria Pearl Export EXX",
       "category": "Percussão",
-      "price": 1200.0,
+      "price":  1200.00,
       "description": "Bateria completa com ótima qualidade de som e durabilidade.",
       "image": "./src/assets/images/bateria_pearl.png"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Teclado Yamaha PSR-E373",
       "category": "Teclas",
-      "price": 300.0,
+      "price": 300.00,
       "description": "Teclado ideal para iniciantes e músicos intermediários, com uma variedade de sons e ritmos.",
       "image": "./src/assets/images/Teclado_Yamaha.webp"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Violão Taylor 314ce",
       "category": "Cordas",
-      "price": 1850.0,
+      "price": 1850.00,
       "description": "Violão acústico com excelente resposta tonal, adequado para performance ao vivo e gravação.",
       "image": "./src/assets/images/violao_taylor.png"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "name": "Saxofone Alto Yamaha YAS-280",
       "category": "Sopro",
-      "price": 1050.0,
+      "price": 1050.00,
       "description": "Saxofone alto de alta qualidade, perfeito para estudantes e músicos avançados.",
       "image": "./src/assets/images/sax_alto.webp"
     }
