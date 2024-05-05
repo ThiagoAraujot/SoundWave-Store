@@ -15,7 +15,7 @@ Projeto realizado na [FIAP](https://www.fiap.com.br/) com o objetivo de praticar
 
 ## :smile: Integrantes
 
-- [Felipe Schneider - RM553477](https://github.com/felpschneider)
+- [Felipe Schneider - RM552643](https://github.com/felpschneider)
 - [Hugo Santos - RM553266](https://github.com/ThiagoAraujot/CP1-WebDevelopment/commits?author=guguim)
 - [Maria Julia Araujo Rodrigues - RM553384](https://github.com/majuaraujo)
 - [Thiago Araujo Vieira - RM553477](https://github.com/ThiagoAraujot)
