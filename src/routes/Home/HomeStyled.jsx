@@ -113,7 +113,7 @@ display: flex;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #FF753A;
     color: #fff;
     cursor: pointer;
   }
@@ -154,7 +154,7 @@ display: flex;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #FF753A;
     color: #fff;
     cursor: pointer;
   }
@@ -231,7 +231,7 @@ span {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #FF753A;
     color: #fff;
     cursor: pointer;
   }
@@ -272,7 +272,7 @@ display: flex;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #FF753A;
     color: #fff;
     cursor: pointer;
   }

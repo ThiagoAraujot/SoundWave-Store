@@ -33,11 +33,11 @@ export const CardContainer = styled.div`
   }
 
   button {
-    margin-top: 1rem;
+    // margin-top: 1rem;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #FF753A;
     color: #fff;
     cursor: pointer;
   }

@@ -44,7 +44,7 @@ export const Button = styled.button`
   padding: 0.8rem;
   border-radius: 4px;
   border: none;
-  background-color: #007bff;
+  background-color: #FF753A;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;

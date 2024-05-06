@@ -14,6 +14,11 @@ export const Login = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const currentUser = sessionStorage.getItem("user");
+
+  if (currentUser != null && !isLoggedIn) {
+    setIsLoggedIn(true);
+  }
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -45,7 +50,6 @@ export const Login = () => {
       </Container>
     );
   }
-
   return (
     <Container>
       <Form onSubmit={handleLogin}>
